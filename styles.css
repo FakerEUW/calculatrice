@@ -1,0 +1,44 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(1, 1, 10);
+}
+
+form{
+    margin: 0;
+    margin-left: 40vw;
+    margin-top: 15vh;
+    padding: 15px;
+    border-radius: 10px;
+    width: 17vw;
+    height: 43vh;
+    background-color: rebeccapurple;
+    box-shadow: 0 0 5px 5px white;
+}
+
+input[type=text] {
+    border-radius: 20px;
+    width: 16.5vw;
+    height: 5vh;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+input[type=button] {
+    width: 4vw;
+    height: 4vw;
+    margin-top: 4px;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(39, 74, 102);
+}
+
+input[name=rstbtn] {
+    width: 16vw;
+    border-radius: 30px;
+    margin-left: 0.4vw;
+}
